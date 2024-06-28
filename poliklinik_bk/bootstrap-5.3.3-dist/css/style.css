@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.option {
+    background: #fff;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.option img {
+    width: 100px;
+    height: 100px;
+}
+
+.option h2 {
+    margin: 10px 0;
+}
+
+.option p {
+    color: #777;
+}
+
+.testimonials {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.testimonial {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #77aaff;
+}
+
+.testimonial p {
+    margin: 0;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin: 10px 0 5px;
+}
+
+.login-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.login-container button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #555;
+}
+.small-box {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.small-box .inner {
+    padding: 10px;
+}
+
+.small-box h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.small-box p {
+    font-size: 15px;
+}
+
+.small-box .icon {
+    top: -10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 90px;
+    position: absolute;
+    transition: all 0.3s linear;
+}
+
+.small-box:hover .icon {
+    font-size: 95px;
+}
